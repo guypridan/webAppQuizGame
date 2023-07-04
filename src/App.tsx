@@ -1,15 +1,17 @@
 // TODO:
 // COMPONENTS
-// quiz > questions
-// welcome screen
 // timer
+// answered history view
+// feedback for answers
 
 import Quiz from "./components/Quiz";
-
+import Styles from "./App.module.css";
 const App = () => {
   return (
-    <div className="d-flex justify-content-center p-3 m-2 border shadow">
-      <Quiz></Quiz>
+    <div className={Styles.quiz}>
+      <div className="d-flex justify-content-center">
+        <Quiz />
+      </div>
     </div>
   );
 };

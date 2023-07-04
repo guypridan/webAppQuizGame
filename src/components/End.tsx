@@ -9,7 +9,7 @@ const End = ({
 }) => {
   return (
     <div className="container text-center">
-      <h1 className="text-center">
+      <h1 className="text-center text-white">
         Finnished with {finalScore.toString()} points
       </h1>
       <button className="btn btn-primary btn-lg" onClick={onReplay}>
